@@ -120,7 +120,7 @@ firstContainerDiv.appendChild(firstContainerTextDiv);
 firstContainerDiv.appendChild(firstContainerSecondTextDiv);
 
 firstContainerTextAbout.textContent =
-  "This is my experience trying to code html and css using JavaScript, it's difficult because most of code is really sensitive, you need to make that your code is complete especially with styling container or text";
+  "This is my experience trying to code html and css using JavaScript, it's difficult because most of code is really sensitive, you need to make that your code is complete especially with styling container or text.";
 firstContainerTextAbout.style.cssText = `
     font-size: 20px;
     width: 400px;
@@ -129,13 +129,14 @@ firstContainerTextAbout.style.cssText = `
     border-radius: 8px;
     border: 2px solid black;
     color: white;
+    text-indent: 30px;
 `;
 
 firstContainerTextDiv.appendChild(firstContainerTextAbout);
 firstContainerHandlerText.appendChild(firstContainerTextDiv); // container text handler
 
 firstContainerSecondTextAbout.textContent =
-  "This is my experience trying to code html and css using JavaScript, it's difficult because most of code is really sensitive, you need to make that your code is complete especially with styling container or text";
+  "This is my experience trying to code html and css using JavaScript, it's difficult because most of code is really sensitive, you need to make that your code is complete especially with styling container or text.";
 
 firstContainerSecondTextAbout.style.cssText = `
     font-size: 20px;
@@ -144,7 +145,7 @@ firstContainerSecondTextAbout.style.cssText = `
     padding: 30px;
     border-radius: 8px;
     border: 2px solid black;
-    color: white;
+    color: white    text-indent: 30px;
 `;
 
 firstContainerSecondTextDiv.appendChild(firstContainerSecondTextAbout);
